@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">Swap App</string>
-    <string name="inbox_name">Inbox</string>
+    <string name="inbox_name">Inbox page</string>
+    <string name="friends_name">Friens page</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="friends_menu_button">Friends</string>
+    <string name="inbox_menu_button">Inbox</string>
+
 
 
 
