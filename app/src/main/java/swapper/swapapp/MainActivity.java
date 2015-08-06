@@ -5,14 +5,20 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.parse.Parse;
+import com.parse.ParseException;
+import com.parse.ParseUser;
+import com.parse.SignUpCallback;
+
 
 public class MainActivity extends ActionBarActivity {
 //testing git
     //Jotski git push
-    //Björn git pushen
+    //Bjï¿½rn git pushen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Parse.initialize(this, "Itd6ZHQhxHjuUSiBSsTVFClsYMz1CMXnCYD6W6Fl", "GucwC0yT4Rn99JhMgJWvLHIGT07FWFdIBUQ0hH2A");
         setContentView(R.layout.fragment_inbox);
     }
 
